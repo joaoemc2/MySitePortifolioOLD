@@ -10,7 +10,12 @@ html{
 a, i{
     transition: .5s;
     text-decoration: none;
-  }
+    color: #fff;
+}
+
+a:hover{
+    color: #b8b8b8;
+}
 
 p{
     margin: 0;
@@ -191,3 +196,108 @@ span{
 
 /*Trabalhos*/
 
+.center-image{
+    background-size:cover ;
+    background-position: center;
+}
+
+.row-portifolio{
+    margin-top: 45px;
+}
+
+.git-cover{
+    width: 400px;
+    height: 180px;
+    margin: auto;
+    background-image:url(../img/cover-portifolio/github.png) ;
+    position: relative;
+    margin-bottom: 40px;
+}
+.behance-cover{
+    width: 400px;
+    height: 180px;
+    margin: auto;
+    background-image:url(../img/cover-portifolio/behance.png) ;
+    position: relative;
+    margin-bottom: 40px;
+}
+.prototipos-cover{
+    width: 400px;
+    height: 180px;
+    margin: auto;
+    background-image:url(../img/cover-portifolio/xd.png) ;
+    position: relative;
+    margin-bottom: 40px;
+}
+.certificados-cover{
+    width: 400px;
+    height: 180px;
+    margin: auto;
+    background-image:url(../img/cover-portifolio/certificado.png) ;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.tarja{
+    background-color: #000000;
+    opacity: 0.4;
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+}
+
+.text-portifolio{
+    color: #fff;
+    opacity: 1;
+    text-align: start;
+    padding: 12px 0 12px 12px;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-portifolio{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 6px 15px 6px 0;
+}
+
+/* Footer */
+
+.footer-container{
+    background-color: #404040;
+    width: 100%;
+    height: 230px;
+}
+.nome-footer{
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+}
+.nickname-footer{
+    color: #a1a1a1;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+.icons-footer{
+    color: #fff;
+    opacity: 0.8;
+    margin: auto;
+}
+.contato-footer{
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+}
+.telefone-footer{
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+}
+.copyright-footer{
+    color: #fff;
+    text-align: center;
+    padding-top: 18px;
+}
