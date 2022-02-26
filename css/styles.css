@@ -14,7 +14,7 @@ a, i{
 }
 
 a:hover{
-    color: #b8b8b8;
+    color: #2b7461;
 }
 
 p{
@@ -33,13 +33,13 @@ header{
     padding-top: 5px;
 }
 
-.titulo{ 
+.title{ 
     font-size: 16px;
     font-weight: 500;
     color: #fff;
     text-align: center;
 }
-.links{ 
+.col-header-link{ 
     margin-bottom: 5px;
     color: #fff;
 }
@@ -52,10 +52,9 @@ header{
     font-weight: 400;
 }
 .single-link:hover{
- color: #474747;
- border-bottom: 1px solid #474747;
+ border-bottom: 1px solid #2b7461;
 }
-.icones{ 
+.col-header-icons{ 
     margin-bottom: 5px;
     color: #fff
 }
@@ -68,7 +67,7 @@ header{
     margin-top: 5px;
 }
 
-#img1-container{
+.img1-container{
     display: flex;
     justify-content: center;
     height: 180px;
@@ -76,7 +75,7 @@ header{
     margin-bottom: 10px;
 }
 
-.ola{
+.main-messeger{
     text-align: center;
     font-size: 30px;
     font-weight: 500;
@@ -103,7 +102,7 @@ header{
     padding-bottom: 30px;
 }
 
-#img2-container{
+.img2-container{
     display: flex;
     height: 300px;
     justify-content: center;
@@ -127,7 +126,7 @@ header{
 
 .subtitle-about-me{
     text-align: end;
-    color: #686868;
+    color: #42635a;
     margin-top: 36px;
     margin-bottom: 20px;
     margin-right: 10px;
@@ -170,10 +169,10 @@ header{
     font-size: 22px;
     font-weight: 500;
     text-align: center;
- }
- .row-tools{
+}
+.row-tools{
      margin-top: 30px;
- }
+}
 
 .icon-tools{
     display: flex;
@@ -206,7 +205,7 @@ span{
 }
 
 .git-cover{
-    width: 400px;
+    width: 380px;
     height: 180px;
     margin: auto;
     background-image:url(../img/cover-portifolio/github.png) ;
@@ -214,7 +213,7 @@ span{
     margin-bottom: 40px;
 }
 .behance-cover{
-    width: 400px;
+    width: 380px;
     height: 180px;
     margin: auto;
     background-image:url(../img/cover-portifolio/behance.png) ;
@@ -222,7 +221,7 @@ span{
     margin-bottom: 40px;
 }
 .prototipos-cover{
-    width: 400px;
+    width: 380px;
     height: 180px;
     margin: auto;
     background-image:url(../img/cover-portifolio/xd.png) ;
@@ -230,7 +229,7 @@ span{
     margin-bottom: 40px;
 }
 .certificados-cover{
-    width: 400px;
+    width: 380px;
     height: 180px;
     margin: auto;
     background-image:url(../img/cover-portifolio/certificado.png) ;
@@ -241,7 +240,7 @@ span{
 .tarja{
     background-color: #000000;
     opacity: 0.4;
-    width: 400px;
+    width: 380px;
     height: 50px;
     position: absolute;
     bottom: 0;
@@ -260,7 +259,7 @@ span{
     position: absolute;
     bottom: 0;
     right: 0;
-    margin: 6px 15px 6px 0;
+    margin: 6px 16px 6px 0;
 }
 
 /* Footer */
@@ -274,12 +273,14 @@ span{
     color: #fff;
     text-align: center;
     padding-top: 15px;
+    font-size: 15px;
 }
 .nickname-footer{
     color: #a1a1a1;
     text-align: center;
     padding-top: 1px;
     padding-bottom: 10px;
+    font-size: 13px;
 }
 .icons-footer{
     color: #fff;
@@ -290,14 +291,17 @@ span{
     color: #fff;
     text-align: center;
     padding-top: 15px;
+    font-size: 14px;
 }
 .telefone-footer{
     color: #fff;
     text-align: center;
     padding-top: 5px;
+    font-size: 14px;
 }
 .copyright-footer{
     color: #fff;
     text-align: center;
     padding-top: 18px;
+    font-size: 14px;
 }
