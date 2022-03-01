@@ -28,11 +28,12 @@ p{
     background-position: center;
 }
 
+
 /*Header*/
 
 header{
     background-color: #3FD8B3;
-    padding-bottom: 70px;
+    padding-bottom: 6px;
     margin-bottom: 16px;
 }
 
@@ -65,7 +66,7 @@ header{
 .header-single-link:hover{
  border-bottom: 1px solid #2b7461;
 }
-.header-icons{ 
+.header-icons{
     position: relative;
     top: 2px;
     margin-bottom: 4px;
@@ -80,88 +81,7 @@ header{
     margin-top: 5px;
 }
 
-.header-profile{
-    display: flex;
-    justify-content: center;
-    height: 180px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.header-title{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 30px;
-    color: #fff;
-}
-
-.header-subtitle{
-    text-align: center;
-    color: #fff;
-}
-
-/*About me*/
-
-.about-row{
-    padding-bottom: 30px;
-}
-
-.about-img{
-    display: flex;
-    height: 300px;
-    justify-content: center;
-}
-
-.about-text{
-    padding: 20px;
-}
-
-.about-title{
-    text-align: center;
-    color: #1E1E1E;
-    margin-bottom: 30px;
-    font-size: 22px;
-    font-weight: 500;
-}
-
-.about-paragraph{
-    text-align: start;
-    color: #1E1E1E;
-    margin-bottom: 16px;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.about-phrase{
-    text-align: end;
-    color: #42635a;
-    margin-top: 36px;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    font-size: 18px;
-    font-weight: 450;
-}
-/*habilidades*/
-
-.skills-container{
-    background-color: #404040;
-    padding: 30px;
-}
-.skills-title{
-    font-size: 22px;
-    font-weight: 500;
-    color: #fff;
-    text-align: center;
-}
-.skills-img{
-    display: flex;
-    height: 130px;
-    justify-content: center;
-    margin: 30px;
-}
-
- /*Ferramentas*/
+/*prototipos*/
 
 .tools-title{
     color: #404040;
@@ -170,34 +90,10 @@ header{
     font-weight: 500;
     text-align: center;
 }
-.tools-row{
-     margin-top: 30px;
-     padding: 50px;
-}
 
-.tools-icon{
-    display: flex;
-    height: 130px;
-    justify-content: center;
-    margin: 10px 0px 30px 0px;
-}
-
-.tools-text{
-    text-align: center;
-    padding: 28px;
-    color: #1E1E1E;
-    font-size: 15px;
-    font-weight: 400;
-}
-
-/*Portifólio*/
-
-.portifolio-title{
-    color: #404040;
-    margin-top: 45px;
-    font-size: 22px;
-    font-weight: 500;
-    text-align: center;
+.center-image{
+    background-size:cover ;
+    background-position: center;
 }
 
 .row-portifolio{
@@ -208,7 +104,7 @@ header{
     width: 360px;
     height: 180px;
     margin: auto;
-    background-image:url(../img/cover-portifolio/github.png) ;
+    background-image:url(../img/cover-prototipos/donuts-cover.png) ;
     position: relative;
     margin-bottom: 40px;
 }
@@ -216,15 +112,15 @@ header{
     width: 360px;
     height: 180px;
     margin: auto;
-    background-image:url(../img/cover-portifolio/behance.png) ;
+    background-image:url(../img/cover-prototipos/site-cover.png) ;
     position: relative;
     margin-bottom: 40px;
 }
-.prototipos-cover{
+.whatsappclone-cover{
     width: 360px;
     height: 180px;
     margin: auto;
-    background-image:url(../img/cover-portifolio/xd.png) ;
+    background-image:url(../img/cover-prototipos/whatsappclone-cover.png) ;
     position: relative;
     margin-bottom: 40px;
 }
@@ -246,18 +142,17 @@ header{
     bottom: 0;
 }
 
-.portifolio-text{
+.text-portifolio{
     color: #fff;
+    opacity: 1;
     text-align: start;
     padding: 12px 0 12px 12px;
-    font-size: 15px;
     position: absolute;
     bottom: 0;
 }
 
-.portifolio-btn{
+.btn-portifolio{
     position: absolute;
-    font-size: 15px;
     bottom: 0;
     right: 0;
     margin: 6px 16px 6px 0;
