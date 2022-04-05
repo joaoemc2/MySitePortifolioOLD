@@ -1,246 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>João Vitor</title>
   <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
   <!-- Bootstrap icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <!-- Local -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <!-- Header  -->
 
-    <header class="container-fluid">
-      <div class="row header-row">
-        <div class="col-12 col-md-3"> <!--Home-->
-          <a href="https://joaoguimaraes.com" class="home">JOÃO V P GUIMARÃES</a>
-        </div>
-        <div class="col-md-2"></div> <!-- Espaçamento-->
-        <div class="col-12 col-md-2 header-links"> <!--Links-->
-          <a href="https://drive.google.com/drive/u/0/folders/19RnpuQTpz4r7Pol5cZtwp5HR3qViY4cl" target="_blank" class="header-single-link">Certificados</a>
-          <a href="docs/Curriculo_João_Vitor_P_Guimarães.pdf" download="Curriculo_Joao_Vitor_Guimarães.pdf" class="header-single-link">Curriculo</a>
-        </div>
-        <div class="col-md-2"></div> <!-- Espaçamento-->
-        <div class="col-12 col-md-3 header-icons"> <!--icones-->
-          <a href="https://www.linkedin.com/in/joao-mc2/" target="_blank" class="bi bi-linkedin single-icon"></a>
-          <a href="https://github.com/joao-mc2" target="_blank" class="bi bi-github single-icon"></a>
-          <a href="https://www.behance.net/joovitor68" target="_blank" class="bi bi-behance single-icon"></a>
-          <a href="https://www.instagram.com/joao.mc2/" target="_blank" class="bi bi-instagram single-icon"></a>
-          <a href="https://api.whatsapp.com/send?phone=5531971602258" target="_blank" class="bi bi-whatsapp single-icon"></a>
-          <a href="mailto:contato@joaoguimaraes.com" target="_blank" class="bi bi-envelope single-icon"></a>
+<body>
+  <!-- Header  -->
+
+  <header class="container-fluid">
+    <div class="row header-row">
+      <div class="col-12 col-md-3">
+        <a href="https://joaoguimaraes.com" class="home">JOÃO V P GUIMARÃES</a>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-12 col-md-2 header-links">
+
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Links e Downloads
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item"
+                href="https://drive.google.com/drive/u/0/folders/19RnpuQTpz4r7Pol5cZtwp5HR3qViY4cl">Certificados</a>
+            </li>
+            <li><a class="dropdown-item" href="docs/Curriculo_João_Vitor_P_Guimarães.pdf"
+                download="Curriculo_Joao_Vitor_Guimarães.pdf">Download Curriculo</a></li>
+            <li><a class="dropdown-item" href="https://www.behance.net/collection/192990313/Meus-Prototipos">Meus Protótipos</a></li>
+          </ul>
         </div>
       </div>
+      <div class="col-md-2"></div>
+      <div class="col-12 col-md-3 header-icons">
+        <a href="https://www.linkedin.com/in/joao-mc2/" target="_blank" class="bi bi-linkedin single-icon"></a>
+        <a href="https://github.com/joao-mc2" target="_blank" class="bi bi-github single-icon"></a>
+        <a href="https://www.behance.net/joovitor68" target="_blank" class="bi bi-behance single-icon"></a>
+        <a href="https://www.instagram.com/joao.mc2/" target="_blank" class="bi bi-instagram single-icon"></a>
+        <a href="https://api.whatsapp.com/send?phone=5531971602258" target="_blank"
+          class="bi bi-whatsapp single-icon"></a>
+        <a href="mailto:contato@joaoguimaraes.com" target="_blank" class="bi bi-envelope single-icon"></a>
+      </div>
+    </div>
     <div class="header-profile">
       <img src="img/eu_circle.png">
     </div>
     <h2 class="header-title">Olá, sou o João. <br>
-    Obrigado por visitar meu site :)</h2>
+      Obrigado por visitar meu site :)</h2>
     <div class="container-md header-subtitle">
       <p> Aqui você pode ver um pouco sobre mim, meus projetos é habilidades.
         Todo esse site esta sendo desenvolvido ultilizando o Bootstrap 5 e irei atualizando-o
         a medida que for aprendendo novos conteudos.
       </p>
     </div>
-</header>
+  </header>
 
-<!-- Sobre mim -->
+  <!-- Sobre mim -->
 
-<div class="row about-row gx-0">
-  <div class="col-md-1"></div> <!-- Espaçamento-->
-  <div class="col-12 col-md-3 align-self-center">
-    <div class="about-img">
-      <img src="img/eu_hexa.png">
+  <div class="row about-row gx-0">
+    <div class="col-md-1"></div> <!-- Espaçamento-->
+    <div class="col-12 col-md-3 align-self-center">
+      <div class="about-img">
+        <img src="img/eu_hexa.png">
+      </div>
     </div>
+    <div class="col-md-1"></div> <!-- Espaçamento-->
+    <div class="col-12 col-md-6 about-text">
+      <p class="about-title">
+        Um pouco sobre mim...
+      </p>
+      <p class="about-paragraph">
+        Me chamo João Vitor Pereira Guimarães, tenho 23 anos é estou cursando o 7° período
+        de Ciência da Computação. Gosto de ler, jogar vídeo games, tocar guitarra e estudar
+        astrofísica nas horas vagas.
+      </p>
+      <p class="about-paragraph">
+        Tenho sede por conhecimento é por esse motivo decidi seguir carreira na área de T.I.,
+        anseio saber como as coisas funcionam e porque funcionam. Durante toda a minha caminhada
+        na universidade foi o desenvolvimento front-end que mais me chamou a atenção, acredito
+        que uma interface simplificada, otimizada e visualmente agradável é essencial nos dias de hoje.
+      </p>
+      <p class="about-paragraph">
+        Ainda não tive a oportunidade de trabalhar como desenvolvedor, porém já fiz alguns projetos
+        pessoais praticando o que aprendi durante todo esse tempo, aqui nessa pagina você pode ver
+        alguns deles, fique a vontade!
+      </p>
+      <p class="about-phrase">
+        "O desejo profundo da humanidade pelo conhecimento é justificativa suficiente para nossa
+        busca contínua." - Stephen Hawking
+      </p>
+    </div>
+    <div class="col-md-1"></div>
   </div>
-  <div class="col-md-1"></div> <!-- Espaçamento-->
-  <div class="col-12 col-md-6 about-text">
-    <p class="about-title">
-      Um pouco sobre mim...
-    </p>
-    <p class="about-paragraph">
-      Me chamo João Vitor Pereira Guimarães, tenho 23 anos é estou cursando o 7° período
-      de Ciências da Computação. Gosto de ler, jogar vídeo games, tocar guitarra e estudar
-      astrofísica nas horas vagas.
-    </p>
-    <p class="about-paragraph">
-      Tenho sede por conhecimento é por esse motivo decidi seguir carreira na área de T.I.,
-      anseio saber como as coisas funcionam e porque funcionam. Durante toda a minha caminhada
-      na universidade foi o desenvolvimento front-end que mais me chamou a atenção, acredito
-      que uma interface simplificada, otimizada e visualmente agradável é essencial nos dias de hoje.
-    </p>
-    <p class="about-paragraph">
-      Ainda não tive a oportunidade de trabalhar como desenvolvedor, porém já fiz alguns projetos
-      pessoais praticando o que aprendi durante todo esse tempo, aqui nessa pagina você pode ver
-      alguns deles, fique a vontade!
-    </p>
-    <p class="about-phrase">
-      "O desejo profundo da humanidade pelo conhecimento é justificativa suficiente para nossa
-      busca contínua." - Stephen Hawking
-    </p>
-  </div>
-  <div class="col-md-1"></div>
-</div>
 
-<!-- habilidades -->
+  <!-- habilidades -->
 
-<div class="skills-container">
-  <p class="skills-title">Habilidades</p>
-  <div class="row row-cols-1 row-cols-md-5">
-    <div class="col">
-      <div class="img-html-container skills-img">
-        <img src="img/porcentagens/html-css.png" alt="#">
+  <div class="skills-container">
+    <p class="skills-title">Habilidades</p>
+    <div class="row row-cols-1 row-cols-md-5">
+      <div class="col">
+        <div class="img-html-container skills-img">
+          <img src="img/porcentagens/html-css.png" alt="#">
+        </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="img-js-container skills-img">
-        <img src="img/porcentagens/javascript.png" alt="#">
+      <div class="col">
+        <div class="img-js-container skills-img">
+          <img src="img/porcentagens/javascript.png" alt="#">
+        </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="img-prototype-container skills-img">
-        <img src="img/porcentagens/prototipação.png" alt="#">
+      <div class="col">
+        <div class="img-prototype-container skills-img">
+          <img src="img/porcentagens/prototipação.png" alt="#">
+        </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="img-design-container skills-img">
-        <img src="img/porcentagens/design.png" alt="#">
+      <div class="col">
+        <div class="img-design-container skills-img">
+          <img src="img/porcentagens/design.png" alt="#">
+        </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="img-marketing-container skills-img">
-        <img src="img/porcentagens/marketing-digital.png" alt="#">
+      <div class="col">
+        <div class="img-marketing-container skills-img">
+          <img src="img/porcentagens/marketing-digital.png" alt="#">
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<!-- Ferramentas -->
 
-<div class="tools-container">
-  <p class="tools-title">Ferramentas</p>
-  <div class="row tools-row gx-0">
-    <div class="col-12 col-md-2">
-      <div class="bootstrap-icon tools-icon">
-        <img src="img/icones-grandes/bootstrap-icon.png" alt="#">
-      </div>
-    </div>
-    <div class="col-12 col-md-4">
-      <div class="tools-text">
-        <p class="#">
-         <span>Bootstrap:</span> Comecei a aprender como utilizar o Bootstrap durante as férias
-         no final de 2021 é gostei tanto do framework que acabei iniciando um curso sobre ele,
-         já conto com um bom conhecimento inicial, um exemplo é esse site, que está sendo
-         inteiramente feito baseado nele.
-        </p>
-      </div>
-    </div>
-    <div class="col-12 col-md-2">
-      <div class="xd-icon tools-icon">
-        <img src="img/icones-grandes/xd-icon.png" alt="#">
-      </div>
-    </div>
-    <div class="col-12 col-md-4">
-      <div class="tools-text">
-        <p class="#">
-          <span>Adobe XD:</span> Gosto muito de criar interfaces e uso o XD como ferramenta, em 2021 fiz um curso
-          de como utilizá-lo, além de aprender conceitos de design.
-         </p>
-      </div>
-    </div>
-    <div class="col-12 col-md-2">
-      <div class="photosho-icon tools-icon">
-        <img src="img/icones-grandes/photoshop-icon.png" alt="#">
-      </div>
-    </div>
-    <div class="col-12 col-md-4">
-      <div class="tools-text">
-        <p class="#">
-          <span>Photoshop:</span> Foi no Photoshop que fiz diversos mini-projetos como freelancer para complementar
-          a renda, considero ele uma ferramenta extremamente versátil e o utilizo desde a criação
-          de rascunhos e wireframes a criação de conteúdo visual para web por exemplo.
-         </p>
-      </div>
-    </div>
-    <div class="col-12 col-md-2">
-      <div class="illustrator-icon tools-icon">
-        <img src="img/icones-grandes/illustrator-icon.png" alt="#">
-      </div>
-    </div>
-    <div class="col-12 col-md-4">
-      <div class="tools-text">
-        <p class="#">
-          <span>Illustrator:</span> Por sua maior usabilidade em conceitos web (por conta da vetorização de arquivos)
-          venho migrando do Photoshop para o Illustrator, estou finalizando um curso sobre o
-          software, pretendo termina-lo ainda no mês de março/2022.
-         </p>
-      </div>
-    </div>
-  </div>
-</div>
+  <!-- Ferramentas -->
 
-<!-- Portifolio -->
+  <div class="tools-container">
+    <p class="tools-title">Ferramentas</p>
+    <div class="row tools-row gx-0">
+      <div class="col-12 col-lg-2">
+        <div class="bootstrap-icon tools-icon">
+          <img src="img/icones-grandes/bootstrap-icon.png" alt="#">
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="tools-text">
+          <p class="#">
+            <span>Bootstrap:</span> Comecei a aprender como utilizar o Bootstrap durante as férias
+            no final de 2021 é gostei tanto do framework que acabei iniciando um curso sobre ele,
+            já conto com um bom conhecimento inicial, um exemplo é esse site, que está sendo
+            inteiramente feito baseado nele.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-2">
+        <div class="xd-icon tools-icon">
+          <img src="img/icones-grandes/xd-icon.png" alt="#">
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="tools-text">
+          <p class="#">
+            <span>Adobe XD:</span> Gosto muito de criar interfaces e uso o XD como ferramenta, em 2021 fiz um curso
+            de como utilizá-lo, além de aprender conceitos de design.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-2">
+        <div class="photosho-icon tools-icon">
+          <img src="img/icones-grandes/photoshop-icon.png" alt="#">
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="tools-text">
+          <p class="#">
+            <span>Photoshop:</span> Foi no Photoshop que fiz diversos mini-projetos como freelancer para complementar
+            a renda, considero ele uma ferramenta extremamente versátil e o utilizo desde a criação
+            de rascunhos e wireframes a criação de conteúdo visual para web por exemplo.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-2">
+        <div class="illustrator-icon tools-icon">
+          <img src="img/icones-grandes/illustrator-icon.png" alt="#">
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="tools-text">
+          <p class="#">
+            <span>Illustrator:</span> Por sua maior usabilidade em conceitos web (por conta da vetorização de arquivos)
+            venho migrando do Photoshop para o Illustrator, estou finalizando um curso sobre o
+            software, pretendo termina-lo ainda no mês de março/2022.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div class="portifolio-container">
-  <p class="portifolio-title">Portifólio</p>
-  <div class="row row-portifolio gx-0">
-    <div class="col-md-1"></div> <!--Espaçamento-->
-   <div class="col-12 col-md-5">
-     <div class="git-cover center-image">
-      <div class="tarja"></div>
-       <p class="portifolio-text"> Conheça meu Github</p>
-       <a href="https://github.com/joao-mc2" target="_blank" class="btn btn-primary portifolio-btn">GitHub</a>
-     </div>
-   </div>
-   <div class="col-12 col-md-5">
-    <div class="behance-cover center-image">
-     <div class="tarja"></div>
-      <p class="portifolio-text"> Acesse meu Behance</p>
-      <a href="https://www.behance.net/joovitor68" target="_blank" class="btn btn-primary portifolio-btn">Behance</a>
+  <!-- Portifolio -->
+
+  <div class="portifolio-container">
+    <p class="portifolio-title">Portifólio</p>
+    <div class="row row-portifolio gx-0">
+      <div class="col-lg-1"></div>
+      <!--Espaçamento-->
+      <div class="col-12 col-lg-5">
+        <div class="git-cover center-image">
+          <div class="tarja"></div>
+          <p class="portifolio-text"> Conheça meu Github</p>
+          <a href="https://github.com/joao-mc2" target="_blank" class="btn btn-primary portifolio-btn">GitHub</a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-5">
+        <div class="behance-cover center-image">
+          <div class="tarja"></div>
+          <p class="portifolio-text"> Acesse meu Behance</p>
+          <a href="https://www.behance.net/joovitor68" target="_blank"
+            class="btn btn-primary portifolio-btn">Behance</a>
+        </div>
+      </div>
+      <div class="col-lg-1"></div>
+      <!--Espaçamento-->
+      <div class="col-lg-1"></div>
+      <!--Espaçamento-->
+      <div class="col-12 col-lg-5">
+        <div class="prototipos-cover center-image">
+          <div class="tarja"></div>
+          <p class="portifolio-text"> Veja meus prototipos</p>
+          <a href="https://www.behance.net/collection/192990313/Meus-Prototipos" target="_blank" class="btn btn-primary portifolio-btn">Prototipos</a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-5">
+        <div class="certificados-cover center-image">
+          <div class="tarja"></div>
+          <p class="portifolio-text"> Visualize meus certificados</p>
+          <a href="https://drive.google.com/drive/u/0/folders/19RnpuQTpz4r7Pol5cZtwp5HR3qViY4cl" target="_blank"
+            class="btn btn-primary portifolio-btn">Certificados</a>
+        </div>
+      </div>
     </div>
+    <div class="col-lg-1"></div>
+    <!--Espaçamento-->
   </div>
-  <div class="col-md-1"></div> <!--Espaçamento-->
-  <div class="col-md-1"></div> <!--Espaçamento-->
-  <div class="col-12 col-md-5">
-    <div class="prototipos-cover center-image">
-     <div class="tarja"></div>
-      <p class="portifolio-text"> Veja meus prototipos</p>
-      <a href="prototipos.html" target="_blank" class="btn btn-primary portifolio-btn">Prototipos</a>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <p class="footer-name">João Vitor Pereira Guimarães</p>
+      <p class="footer-nickname">@joao.mc2</p>
+      <div class="row gx-0">
+        <div class="col-12 footer-icons">
+          <a href="https://www.linkedin.com/in/joao-mc2/" target="_blank" class="bi bi-linkedin single-icon"></a>
+          <a href="https://github.com/joao-mc2" target="_blank" class="bi bi-github single-icon"></a>
+          <a href="https://www.behance.net/joovitor68" target="_blank" class="bi bi-behance single-icon"></a>
+          <a href="https://www.instagram.com/joao.mc2/" target="_blank" class="bi bi-instagram single-icon"></a>
+          <a href="https://api.whatsapp.com/send?phone=5531971602258" target="_blank"
+            class="bi bi-whatsapp single-icon"></a>
+          <a href="mailto:contato@joaoguimaraes.com" target="_blank" class="bi bi-envelope single-icon"></a>
+        </div>
+      </div>
+      <p class="footer-mail">contato@joaoguimaraes.com</p>
+      <p class="footer-tell">(31) 9 7160-2258</p>
+      <p class="footer-copy">Ver. 02581141</p>
     </div>
-  </div>
-  <div class="col-12 col-md-5">
-    <div class="certificados-cover center-image">
-     <div class="tarja"></div>
-      <p class="portifolio-text"> Visualize meus certificados</p>
-      <a href="https://drive.google.com/drive/u/0/folders/19RnpuQTpz4r7Pol5cZtwp5HR3qViY4cl" target="_blank" class="btn btn-primary portifolio-btn">Certificados</a>
-    </div>
-  </div>
-</div>
-<div class="col-md-1"></div> <!--Espaçamento-->
-</div>
-<!-- Footer -->
-<footer>
-  <div class="footer-container">
-    <p class="footer-name">João Vitor Pereira Guimarães</p>
-    <p class="footer-nickname">@joao.mc2</p>
-    <div class="row gx-0">
-    <div class="col-12 footer-icons">
-      <a href="https://www.linkedin.com/in/joao-mc2/" target="_blank" class="bi bi-linkedin single-icon"></a>
-      <a href="https://github.com/joao-mc2" target="_blank" class="bi bi-github single-icon"></a>
-      <a href="https://www.behance.net/joovitor68" target="_blank" class="bi bi-behance single-icon"></a>
-      <a href="https://www.instagram.com/joao.mc2/" target="_blank" class="bi bi-instagram single-icon"></a>
-      <a href="https://api.whatsapp.com/send?phone=5531971602258" target="_blank" class="bi bi-whatsapp single-icon"></a>
-      <a href="mailto:contato@joaoguimaraes.com" target="_blank" class="bi bi-envelope single-icon"></a>
-    </div>
-  </div>
-    <p class="footer-mail">contato@joaoguimaraes.com</p>
-    <p class="footer-tell">(31) 9 7160-2258</p>
-    <p class="footer-copy">©2022 - Todos os direitos reservados</p>
-  </div>
-</footer>
+  </footer>
+  <!-- 1747458390980707-->
 </body>
+<!--The Cake is a lie-->
+
 </html>
+
+<!--<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="https://joaoguimaraes.com">João V Guimarães</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Links
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Download Curriculo</a></li>
+                    <li><a class="dropdown-item" href="#">Pagina de Prototipos</a></li>
+                    <li><a class="dropdown-item" href="#">Certificados</a></li>
+                  </ul>
+                </li>
+              </ul>
+                <div class="icon-header">
+                  <a href="https://www.linkedin.com/in/joao-mc2/" target="_blank" class="bi bi-linkedin single-icon"></a>
+                  <a href="https://github.com/joao-mc2" target="_blank" class="bi bi-github single-icon"></a>
+                  <a href="https://www.behance.net/joovitor68" target="_blank" class="bi bi-behance single-icon"></a>
+                  <a href="https://www.instagram.com/joao.mc2/" target="_blank" class="bi bi-instagram single-icon"></a>
+                  <a href="https://api.whatsapp.com/send?phone=5531971602258" target="_blank" class="bi bi-whatsapp single-icon"></a>
+                  <a href="mailto:contato@joaoguimaraes.com" target="_blank" class="bi bi-envelope single-icon"></a>
+                </div>
+            </div>
+          </div>
+    </nav> -->
